@@ -1,11 +1,15 @@
-#top {
-  background: red;
+nav {
+  background: #22252c;
 }
 
-#middle {
-  background: green;
+#top {
+  background: #02a7c1;
 }
 
 #bottom {
-  background: blue;
+  background: #f85e5e;
 }
+
+/*
+stock images provided by pixabay
+*/
