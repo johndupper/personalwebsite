@@ -10,6 +10,10 @@ nav {
   height: 80vh;
 }
 
+.text-box {
+  background: white;
+}
+
 #top, #bottom {
   background: black;
 }
