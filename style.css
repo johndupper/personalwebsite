@@ -1,15 +1,25 @@
+* {
+  font-family: 'Slabo 27px', serif;
+}
+
 nav {
-  background: #22252c;
+  background: black;
 }
 
-#top {
-  background: #02a7c1;
+.parallax-container {
+  height: 80vh;
 }
 
-#bottom {
-  background: #f85e5e;
+#top, #bottom {
+  background: black;
 }
 
 /*
 stock images provided by pixabay
+
+#22252c -- grey
+#02a7c1 -- blue
+#f85e5e == tomato
+
+
 */
