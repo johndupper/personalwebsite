@@ -10,20 +10,26 @@ nav {
   height: 80vh;
 }
 
-.text-box {
-  background: white;
+.centered-text {
+  margin: 0 auto;
 }
 
-#top, #bottom {
+.white-text {
+  color: white;
+}
+
+#bottom {
+  height: 100vh;
   background: black;
 }
 
-/*
-stock images provided by pixabay
+.split {
+  display: flex;
+}
 
-#22252c -- grey
-#02a7c1 -- blue
-#f85e5e == tomato
+.left, .right {
+  width: 50%;
+  height: 100%;
+}
 
-
-*/
+/* stock images provided by pixabay */
