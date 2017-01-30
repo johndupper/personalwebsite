@@ -7,29 +7,32 @@ nav {
 }
 
 .parallax-container {
-  height: 80vh;
+  height: 70vh;
 }
 
 .centered-text {
-  margin: 0 auto;
+  text-align: center;
+  margin: 0 7.5%;
+  font-size: 2.5rem;
+  line-height: 150%;
 }
 
 .white-text {
+  margin: 0 auto;
   color: white;
 }
 
-#bottom {
-  height: 100vh;
-  background: black;
-}
-
 .split {
+  height: 80vh;
   display: flex;
 }
 
 .left, .right {
   width: 50%;
   height: 100%;
+  background: black;
+  text-align: center;
+  border: 1px solid white;
 }
 
 /* stock images provided by pixabay */
