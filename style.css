@@ -10,14 +10,26 @@ nav {
   height: 70vh;
 }
 
-.project-img {
-  max-height: 600px;
-  max-width: 600px;
+a {
+  text-decoration: none;
+  color: teal;
 }
 
-img {
+h5 {
+  letter-spacing: 1px;
+}
+
+#middle {
+  background: darkslategray;
+}
+
+.sm-img {
   height: 10rem;
   background-size: contain;
+}
+
+.md-img {
+  max-width: 100%;
 }
 
 .centered-text {
@@ -46,6 +58,10 @@ img {
 .left h5,
 .right h5 {
   margin: 5% 7.5%;
+}
+
+.gray {
+  background: lightgrey;
 }
 
 .blk {
