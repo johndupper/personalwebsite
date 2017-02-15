@@ -1,71 +1,53 @@
-* {
-  font-family: 'Slabo 27px', serif;
-}
-
-nav {
-  background: black;
-}
-
-.parallax-container {
-  height: 70vh;
-}
-
+* {  font-family: 'Slabo 27px', serif;  }
+nav {  background: black;  }
+.parallax-container {  height: 70vh;  }
 a {
   text-decoration: none;
   color: teal;
 }
-
-h5 {
-  letter-spacing: 1px;
-}
-
-#middle {
-  background: darkslategray;
-}
-
+h5 {  letter-spacing: 1px;  }
+#middle {  background: darkslategray;  }
 .sm-img {
   height: 10rem;
   background-size: contain;
 }
-
-.md-img {
-  max-width: 100%;
-}
-
+.md-img {  max-width: 100%;  }
 .centered-text {
   text-align: center;
   margin: 5% 7.5%;
   font-size: 2.5rem;
   line-height: 150%;
 }
-
 .white-text {
   margin: 0 auto;
   color: white;
 }
-
 .split {
   height: 80vh;
   display: flex;
 }
-
 .left, .right {
   width: 50%;
   height: 100%;
   text-align: center;
 }
-
 .left h5,
-.right h5 {
-  margin: 5% 7.5%;
-}
+.right h5 {  margin: 5% 7.5%;  }
+.gray {  background: lightgrey;  }
+.blk {  background: black;  }
 
-.gray {
-  background: lightgrey;
-}
 
-.blk {
-  background: black;
+@media all and (max-width: 600px) {
+  .valign-wrapper { background: white; }
+  .blk { background: black; }
+  .centered-text {  font-size: 1.5rem;  }
+  h5 { font-size: 1.3rem; }
+  .project-img { display: none; }
+  .left, .right { vertical-align: middle; }
+  .bottom { display: none; }
+  .bottom-text { width: 100%; }
+  li h5 { font-size: 0.95rem; }
+  a { color: indianred; }
 }
 
 /* stock images provided by pixabay */
